@@ -21,9 +21,13 @@ function App() {
     }, 2000);
 
   }
+ 
   const toggleMode=()=>{
+   
     if(mode==='light'){
+    
       setMode("dark");
+    
       document.body.style.backgroundColor="#042743";
       document.title="TextUtils-DarkMode";
       showAlert("Dark Mode has Been Enable",'success');
